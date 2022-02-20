@@ -28,3 +28,5 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+
+// Fonksiyonun amacı source parametresi ile gösterilen değerin n kadar uzunlukta dest parametresinin bellek adresine kopyalanması.

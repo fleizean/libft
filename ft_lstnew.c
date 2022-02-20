@@ -23,3 +23,8 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
+
+// Fonksiyonun amacı listemizin içerisine yeni bir eleman eklemesi.
+// 19'un malloc sonucu 16 (listin bayt değeri)
+// 22'de listimizdeki yeni bir eleman eklerken ki contenti dışarıdan aldığımız contentinden alarak değiştiriyoruz.
+// 23'de listimizdeki yeni bir elemanın next'ine NULL atıyoruz(nextimiz NULL göstermek zorunda)

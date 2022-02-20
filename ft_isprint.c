@@ -18,3 +18,5 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+
+// Fonksiyonun amacı alınan verinin yazdırılabilir bir veri mi olduğunu kontrol etmesi.

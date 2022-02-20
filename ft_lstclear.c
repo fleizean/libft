@@ -26,3 +26,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	}
 	*lst = 0;
 }
+
+// Fonksiyonun amacı tüm list değerlerini silmesi
+// 21. while'da tek tek gezerek silme işlemi yapar.

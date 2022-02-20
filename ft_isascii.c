@@ -18,3 +18,5 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+
+// Fonksiyonun amacı alınan değerin ASCII (decimal) tablosundaki aralığını kontrol etmesi.

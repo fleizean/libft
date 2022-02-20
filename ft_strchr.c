@@ -20,3 +20,5 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (0);
 }
+
+// Fonksiyonun amacı s değerindeki string parametresinde c parametresini arayıp c parametresi dahil olmak üzere ondan sonraki değerleri ile beraber döndürmesi.

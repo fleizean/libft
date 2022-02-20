@@ -26,3 +26,5 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (pdst);
 }
+
+// Fonksiyonun amacı dışarıdan alınan s dizesini n sayısı kadar c parametresi ile belirtilen tek karakterlik char verisi ile değiştirmesi (0. indeksten başlayarak)

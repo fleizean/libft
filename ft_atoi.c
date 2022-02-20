@@ -47,3 +47,9 @@ int	ft_atoi(const char *nptr)
 		return (-1);
 	return (ret_val * isaret);
 }
+
+// Fonksiyonun amacı rakamsal char verisini int'e çevirme
+// 16. fonksiyonda boşluk/newline gibi şeyler varsa kontrol
+// 35 değer negatif ise işlemleri
+// 42'de sayı rakamsa  43'de int'e çevirip sayıyı bulma
+// 44 ve 45'de libft-unit-testerda aldığımız sarı KO hatasının çözümü (değerimizin LONG MAX değerinden büyük olup olmama durumları kontrol)

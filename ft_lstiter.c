@@ -22,3 +22,5 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+// Fonksiyonun amacı dışarıdan alınan f fonksiyonuna (ne yapacağı size kalmış) alınan listedeki her elemanı uygulaması.

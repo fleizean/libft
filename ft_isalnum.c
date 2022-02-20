@@ -19,3 +19,5 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+
+// Fonksiyonun amacı değerin alfabe ve numerik bir veri aralığında olup olmadığını kontrol etmesi.

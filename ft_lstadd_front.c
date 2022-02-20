@@ -24,3 +24,7 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
+
+// Fonksiyonun amacı listemizin başına yeni bir liste eklemesi.
+// 21'de listemiz oluşmadıysa (yoksa) direkt olarak listemize new atanır.
+// 24'de listemizin başına ekleme yaptık 25'te asıl değerini new yaptık.

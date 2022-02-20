@@ -75,3 +75,5 @@ char	**ft_split(char const *s, char c)
 	res[res_i] = 0;
 	return (res);
 }
+
+// Fonksiyonun amacı tek boyutlu dizeyi belirtilen ayraç(, boşluk -) ile beraber ayırıp çok boyutlu dizeye çevirmesi.

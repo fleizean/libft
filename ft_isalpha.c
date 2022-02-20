@@ -19,3 +19,5 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+
+// Fonksiyonun amacı gönderilen değerin alfabe içerisinde olup olmadığını kontrol etmesi.

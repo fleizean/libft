@@ -32,3 +32,5 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 	}
 	return (NULL);
 }
+
+// Fonksiyonun amacı strchr ile aynı mantık sadece ikisinde de string var string karşılaştırıyor.

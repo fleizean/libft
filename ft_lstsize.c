@@ -24,3 +24,5 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (count);
 }
+
+// Fonksiyonun amacı listemizin uzunluğunu döndürmesi.

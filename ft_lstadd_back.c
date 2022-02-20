@@ -26,3 +26,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	aux = ft_lstlast(*lst);
 	aux->next = new;
 }
+
+// Fonksiyonun amacı listemizin sonuna ekleme yapıyor
+// liste yoksa dışarıdan aldığımız liste direkt new olarak atanır.
+// 26'da listemizin lastını bulduğumuz fonksiyon ile lastını bulduk ve aux diye oluşturduğumuz fonksiyonun içine attık.
+// 27'de bulduğumuz listenin next'ine aldığımız liste değeri olan new'i atadık.

@@ -22,3 +22,5 @@ char	*ft_strdup(const char *s1)
 	ft_memcpy(s2, s1, ft_strlen(s1) + 1);
 	return (s2);
 }
+
+// Fonksiyonun amacı s1 parametresi stringini malloc s1 parametresi uzunluğu ile + 1(NULL için)'i kadar yer açıp yeni bir stringe kopyalaması.

@@ -28,3 +28,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new_str[j] = '\0';
 	return (new_str);
 }
+
+// Fonksiyonun amacı s parametresindeki string değerimizin belirttiğimiz başlangıç indeksinden n kadar uzunluğunda gidip geri döndürmesi.

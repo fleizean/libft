@@ -25,3 +25,5 @@ void	*ft_memchr(const void *ptr, int c, size_t len)
 	}
 	return (NULL);
 }
+
+// Fonksiyonun amacı string bir ptr verisinde tek baytlık char verisini n kadar uzunlukta arayıp geriye pointer (bellek) işaretçisi geri döndürmesi. -> %p <-

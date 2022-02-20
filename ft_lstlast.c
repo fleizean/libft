@@ -20,3 +20,5 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
+
+// Fonksiyonun amacı listenin en son değerini döndürür.

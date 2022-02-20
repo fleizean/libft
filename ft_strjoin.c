@@ -33,3 +33,5 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new_str[i] = '\0';
 	return (new_str);
 }
+
+// Fonksiyonun amacı dışarıdan alınan s1 string parametresini ve s2 string parametresini Malloc kullanarak + 1(NULL için)'i kadar yer açıp yeni bir string değerinde birleştirmesi.

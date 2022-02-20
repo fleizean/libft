@@ -19,3 +19,5 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	del(lst->content);
 	free(lst);
 }
+
+// Fonksiyonun amacı listelerin contentini silmek ve listeyi free fonksiyonu ile bellekten boşaltmak.

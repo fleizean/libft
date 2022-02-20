@@ -26,3 +26,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		}
 	}
 }
+
+// Fonksiyonun amacı dışarıdan alınan f parametresine alınan s string parametresindeki her elemana uygulaması.

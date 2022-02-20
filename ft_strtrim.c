@@ -25,3 +25,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr(s1, 0, i + 1));
 }
+
+// Fonksiyonun amacı s1 parametresindeki string verisinde *set parametresindeki string verisinin geçtiği her yeri kesmesi.

@@ -33,3 +33,5 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+
+// Fonksiyonun amacı dışarıdan alınan string(void değersiz) döndüren (->*(*f)) fonksiyona alınan listenin her elemanının uygulanıp yeni bir listeye atılması.

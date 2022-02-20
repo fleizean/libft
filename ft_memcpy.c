@@ -26,3 +26,5 @@ void	*ft_memcpy(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+
+// Fonksiyonun amacı bir string verisinin üzerine ekleme yaparken kullanabilmeniz.

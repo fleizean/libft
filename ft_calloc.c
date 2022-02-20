@@ -24,3 +24,5 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_memset(dst, 0, tot_size);
 	return (dst);
 }
+
+// Fonksiyonun Malloc'tan farkı malloc ile yer açıp açtığı yerleri NULL ile doldurması.

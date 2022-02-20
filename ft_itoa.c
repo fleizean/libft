@@ -55,3 +55,9 @@ char	*ft_itoa(int n)
 		itoa[0] = '0';
 	return (itoa);
 }
+
+// Fonksiyonun amacı alınan int değeri chara dönüştürmesi.
+// 37'de çağırdığımız fonksiyon basamak sayısı buluyor
+// 43'de basamak sayısının + 1'i (NULL için) kadar yer açıyor.
+// 46'da sonuna NULL attık (tersten gittiğimiz için!)
+// 47'de ki fonksiyon sondan başlayarak değeri char'a dönüştürüyor

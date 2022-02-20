@@ -27,3 +27,5 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (ptr);
 }
+
+// Fonksiyonun amacı strchr ile aynı mantık sadece c ile belirtilen char verisindeki en son ki c değerini alır. örn : Bilgisayar(*s) stringi ve i(c) char verisi return: isayar

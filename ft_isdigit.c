@@ -18,3 +18,5 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
+
+// Fonksiyonun amacı alınan verinin numerik olup olmadığını kontrol etmesi.
